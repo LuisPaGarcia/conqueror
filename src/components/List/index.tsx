@@ -108,7 +108,7 @@ class List extends React.Component<{}, Items> {
   render() {
     return (
       <>
-        <h1>Drag & Drop test</h1>
+        <h1>Task list</h1>
         <DragDropContext onDragEnd={this.onDragEnd}>
           <Droppable droppableId='droppable'>
             {(provided, snapshot) => (
